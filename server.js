@@ -6,7 +6,7 @@ app.use(cors()); // enable CORS
 
 // Default route
 app.get('/', (req, res) => {
-    res.send('hi all this is test');
+    res.send('hi all this is test 1');
 });
 
 // ✅ GET user details
